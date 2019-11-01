@@ -12,7 +12,6 @@ import Lottie
 struct ContentView: View {
     var body: some View {
         ZStack {
-           // BlurView(style: .systemMaterial)
             LottieView(filename: "bb8")
         }
         .frame(width: 360, height: 360)
